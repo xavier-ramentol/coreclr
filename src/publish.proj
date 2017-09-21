@@ -57,7 +57,7 @@
                     Overwrite="$(OverwriteOnPublish)" />
   </Target>
 
-  <Target Name="PublishTestNativeBinaries" Condition="'$(PublishTestNativeBins)' == 'true' '$(OfficialPublish)' != 'true'">
+  <Target Name="PublishTestNativeBinaries" Condition="'$(PublishTestNativeBins)' == 'true' and '$(OfficialPublish)' != 'true'">
     <PropertyGroup>
       <RelativePath Condition="'$(RelativePath)' == ''">$(__BuildType)/TestNativeBins</RelativePath>
     </PropertyGroup>

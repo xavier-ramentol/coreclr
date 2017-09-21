@@ -9,10 +9,10 @@
     <PackageTargetFallback>$(PackageTargetFallback);netframework</PackageTargetFallback>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Microsoft.DotNet.BuildTools">
+    <PackageReference Include="microsoft.dotnet.buildtools">
       <Version>$(BuildToolsPackageVersion)</Version>
     </PackageReference>
-    <PackageReference Include="Microsoft.DotNet.BuildTools.Coreclr">
+    <PackageReference Include="microsoft.dotnet.buildtools.coreclr">
       <Version>1.0.4-prerelease</Version>
     </PackageReference>
     <PackageReference Include="$(FeedTasksPackage)">

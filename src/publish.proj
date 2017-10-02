@@ -33,7 +33,6 @@
     </ItemGroup>
     <PushToBlobFeed ExpectedFeedUrl="$(ExpectedFeedUrl)"
                     AccountKey="$(AccountKey)"
-                    ContainerName="$(ContainerName)"
                     ItemsToPush="@(ItemsToPush)"
                     PublishFlatContainer="$(PublishFlatContainer)"
                     Overwrite="$(OverwriteOnPublish)" 
@@ -51,7 +50,6 @@
     </ItemGroup>
     <PushToBlobFeed ExpectedFeedUrl="$(ExpectedFeedUrl)"
                     AccountKey="$(AccountKey)"
-                    ContainerName="$(ContainerName)"
                     ItemsToPush="@(ItemsToPush)"
                     PublishFlatContainer="$(PublishFlatContainer)"
                     Overwrite="$(OverwriteOnPublish)" />
@@ -68,7 +66,6 @@
     </ItemGroup>
     <PushToBlobFeed ExpectedFeedUrl="$(ExpectedFeedUrl)"
                     AccountKey="$(AccountKey)"
-                    ContainerName="$(ContainerName)"
                     ItemsToPush="@(ItemsToPush)"
                     PublishFlatContainer="$(PublishFlatContainer)"
                     Overwrite="$(OverwriteOnPublish)" />

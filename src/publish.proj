@@ -3,8 +3,8 @@
   <Import Project="$([MSBuild]::GetDirectoryNameOfFileAbove($(MSBuildThisFileDirectory), dir.props))\dir.props" />
 
   <PropertyGroup>
-    <FeedsDir Condition="'$(RunningOnCore)' != 'true'">$(ToolsDir)Microsoft.Dotnet.Build.Tasks.Feed/desktop/</FeedsDir>
-    <FeedsDir Condition="'$(RunningOnCore)' == 'true'">$(ToolsDir)microsoft.dotnet.build.tasks.feed/</FeedsDir>
+    <FeedsDir Condition="'$(RunningOnCore)' != 'true'">$(ToolsDir)Microsoft.Dotnet.Build.Tasks.Feed/net46/</FeedsDir>
+    <FeedsDir Condition="'$(RunningOnCore)' == 'true'">$(ToolsDir)microsoft.dotnet.build.tasks.feed/netstandard1.5</FeedsDir>
   </PropertyGroup>
 
   <UsingTask TaskName="PushToBlobFeed" AssemblyFile="$(FeedsDir)Microsoft.DotNet.Build.Tasks.Feed.dll"/>

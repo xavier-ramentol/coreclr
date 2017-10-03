@@ -4,7 +4,7 @@
     <EnableDefaultItems>false</EnableDefaultItems>
     <DisableImplicitFrameworkReferences>true</DisableImplicitFrameworkReferences>
     <BaseIntermediateOutputPath>$(ToolsDir)/$(BuildToolsPackageVersion)</BaseIntermediateOutputPath>
-    <FeedTasksVersion>1.0.0-prerelease-02102-01</FeedTasksVersion>
+    <FeedTasksVersion>1.0.0-prerelease-02103-02</FeedTasksVersion>
     <FeedTasksPackage>microsoft.dotnet.build.tasks.feed</FeedTasksPackage>
     <PackageTargetFallback>$(PackageTargetFallback);netframework</PackageTargetFallback>
   </PropertyGroup>
